@@ -13,6 +13,8 @@ The API was implemented and tested with:
 Building and running the API with Docker, from the app's root folder:
 
 ```sh
+git clone git@github.com:Hanzig/cards.git
+cd cards
 docker build -t cards .
 docker run -p 3000:3000 -d cards
 ```
@@ -25,7 +27,8 @@ Run `npm test` from the root folder.
 
 ## Notes
 
-I used `deckId` instead of `deck_id` else linter flags the following:
+* A handy tool https://www.uuidgenerator.net to generate UUID's for tests.
+* I used `deckId` instead of `deck_id` else linter flags the following:
 
 ```
 Class Property name `deck_id` must match one of the following formats: camelCase, UPPER_CASE, PascalCase  @typescript-eslint/naming-convention
