@@ -15,15 +15,18 @@ Building and running the API with Docker, from the app's root folder:
 ```sh
 git clone git@github.com:Hanzig/cards.git
 cd cards
-docker build -t cards .
-docker run -p 3000:3000 -d cards
+docker build -t cards . && docker run -p 3000:3000 -d cards
 ```
 
 The API can now be accessed on http://127.0.0.1:3000/explorer
 
 ## Tests
 
-Run `npm test` from the root folder.
+```sh
+docker ps     #find container id
+docker exec -i -t <containerid> /bin/bash
+npm test
+```
 
 ## Notes
 
