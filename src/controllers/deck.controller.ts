@@ -172,7 +172,7 @@ export class DeckController {
       throw new NotFound('deckId not a valid UUID')
     }
 
-    // Count and fetch the cards from the top of the cards object.
+    // Count and fetch the cards from the top of the deck.
     const deck = await this.deckRepository.findById(deckId);
     const drawnCards = deck.cards?.splice(0, count);
     const drawnCardsObject = {"cards": drawnCards};
