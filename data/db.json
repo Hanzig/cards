@@ -4,7 +4,7 @@
   },
   "models": {
     "Deck": {
-      "904fe833-f174-4fb2-8faf-bfd63adc61e0": "{\"deckId\":\"904fe833-f174-4fb2-8faf-bfd63adc61e0\",\"shuffled\":true,\"remaining\":9,\"game\":\"string\",\"cards\":[{\"code\":\"4C\",\"suit\":\"DIAMONDS\",\"value\":\"4\"},{\"code\":\"JC\",\"suit\":\"CLUBS\",\"value\":\"JACK\"},{\"code\":\"3S\",\"suit\":\"SPADES\",\"value\":\"3\"},{\"code\":\"5C\",\"suit\":\"CLUBS\",\"value\":\"5\"},{\"code\":\"8C\",\"suit\":\"DIAMONDS\",\"value\":\"8\"},{\"code\":\"QS\",\"suit\":\"SPADES\",\"value\":\"QUEEN\"},{\"code\":\"10H\",\"suit\":\"HEARTS\",\"value\":\"10\"},{\"code\":\"6H\",\"suit\":\"HEARTS\",\"value\":\"6\"},{\"code\":\"3C\",\"suit\":\"DIAMONDS\",\"value\":\"3\"}]}",
+      "904fe833-f174-4fb2-8faf-bfd63adc61e0": "{\"deckId\":\"904fe833-f174-4fb2-8faf-bfd63adc61e0\",\"shuffled\":true,\"remaining\":9,\"game\":\"string\",\"cards\":[{\"code\":\"4D\",\"suit\":\"DIAMONDS\",\"value\":\"4\"},{\"code\":\"JC\",\"suit\":\"CLUBS\",\"value\":\"JACK\"},{\"code\":\"3S\",\"suit\":\"SPADES\",\"value\":\"3\"},{\"code\":\"5C\",\"suit\":\"CLUBS\",\"value\":\"5\"},{\"code\":\"8D\",\"suit\":\"DIAMONDS\",\"value\":\"8\"},{\"code\":\"QS\",\"suit\":\"SPADES\",\"value\":\"QUEEN\"},{\"code\":\"10H\",\"suit\":\"HEARTS\",\"value\":\"10\"},{\"code\":\"6H\",\"suit\":\"HEARTS\",\"value\":\"6\"},{\"code\":\"3D\",\"suit\":\"DIAMONDS\",\"value\":\"3\"}]}",
       "cd4c22e8-f093-11eb-9a03-0242ac130003": "{\"deckId\":\"cd4c22e8-f093-11eb-9a03-0242ac130003\",\"shuffled\":true,\"remaining\":5,\"cards\":[{\"code\":\"2S\",\"suit\":\"SPADES\",\"value\":\"2\"},{\"code\":\"JC\",\"suit\":\"CLUBS\",\"value\":\"JACK\"},{\"code\":\"KD\",\"suit\":\"DIAMONDS\",\"value\":\"KING\"},{\"code\":\"AS\",\"suit\":\"SPADES\",\"value\":\"ACE\"},{\"code\":\"KH\",\"suit\":\"HEARTS\",\"value\":\"KING\"}]}"
     },
     "Card": {
@@ -38,15 +38,15 @@
       "28": "{\"value\":\"KING\",\"suit\":\"DIAMONDS\",\"code\":\"KD\"}",
       "29": "{\"value\":\"QUEEN\",\"suit\":\"DIAMONDS\",\"code\":\"QD\"}",
       "30": "{\"value\":\"JACK\",\"suit\":\"DIAMONDS\",\"code\":\"JD\"}",
-      "31": "{\"value\":\"10\",\"suit\":\"DIAMONDS\",\"code\":\"10C\"}",
-      "32": "{\"value\":\"9\",\"suit\":\"DIAMONDS\",\"code\":\"9C\"}",
-      "33": "{\"value\":\"8\",\"suit\":\"DIAMONDS\",\"code\":\"8C\"}",
-      "34": "{\"value\":\"7\",\"suit\":\"DIAMONDS\",\"code\":\"7C\"}",
-      "35": "{\"value\":\"6\",\"suit\":\"DIAMONDS\",\"code\":\"6C\"}",
-      "36": "{\"value\":\"5\",\"suit\":\"DIAMONDS\",\"code\":\"5C\"}",
-      "37": "{\"value\":\"4\",\"suit\":\"DIAMONDS\",\"code\":\"4C\"}",
-      "38": "{\"value\":\"3\",\"suit\":\"DIAMONDS\",\"code\":\"3C\"}",
-      "39": "{\"value\":\"2\",\"suit\":\"DIAMONDS\",\"code\":\"2C\"}",
+      "31": "{\"value\":\"10\",\"suit\":\"DIAMONDS\",\"code\":\"10D\"}",
+      "32": "{\"value\":\"9\",\"suit\":\"DIAMONDS\",\"code\":\"9D\"}",
+      "33": "{\"value\":\"8\",\"suit\":\"DIAMONDS\",\"code\":\"8D\"}",
+      "34": "{\"value\":\"7\",\"suit\":\"DIAMONDS\",\"code\":\"7D\"}",
+      "35": "{\"value\":\"6\",\"suit\":\"DIAMONDS\",\"code\":\"6D\"}",
+      "36": "{\"value\":\"5\",\"suit\":\"DIAMONDS\",\"code\":\"5D\"}",
+      "37": "{\"value\":\"4\",\"suit\":\"DIAMONDS\",\"code\":\"4D\"}",
+      "38": "{\"value\":\"3\",\"suit\":\"DIAMONDS\",\"code\":\"3D\"}",
+      "39": "{\"value\":\"2\",\"suit\":\"DIAMONDS\",\"code\":\"2D\"}",
       "40": "{\"value\":\"ACE\",\"suit\":\"HEARTS\",\"code\":\"AH\"}",
       "41": "{\"value\":\"KING\",\"suit\":\"HEARTS\",\"code\":\"KH\"}",
       "42": "{\"value\":\"QUEEN\",\"suit\":\"HEARTS\",\"code\":\"QH\"}",
