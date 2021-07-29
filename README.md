@@ -9,6 +9,7 @@ The API was implemented and tested with:
 - Docker engine 19.03.2, build 6a30dfc
 - Docker client 2.1.0.3
 - Node.js v16.5.0
+- LoopBack 4 CLI
 
 Building and running the API with Docker, from the app's root folder:
 
